@@ -13,6 +13,7 @@ function App() {
         <>
           <Menu />
           <div className="App">
+          <h1>hello Islam , la world la walou</h1>
             <Suspense fallback={<Spin />}>
               <Route path="/" exact component={Home} />
               <Route path="/user" component={User} />
